@@ -7,7 +7,7 @@ $(document).ready(function () {
 
     // panel 2
     $('#panel-2').on('click', function () {
-        ga('send', 'event', 'open link in new tab', 'click', 'open link in new tab');
+        ga('send', 'event', 'open link in new tab', 'click', 'New Tasks');
         window.open('http://www.hugeloli.com/third/fireworks/');
     });
 
