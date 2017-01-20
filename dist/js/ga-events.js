@@ -1,6 +1,7 @@
 $(document).ready(function () {
     // panel 1
     $('#panel-1').on('click', function () {
+        mixpanel.track("Video play");
         ga('send', 'event', 'open link in current window', 'click', 'New Comments');
         window.location.href = 'http://www.hugeloli.com/third/2048/';
     });
